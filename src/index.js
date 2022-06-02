@@ -1,7 +1,7 @@
 // Import the React and ReactDOM libraries
 import React from "react";
 import ReactDOM from "react-dom";
-import faker from "@faker-js/faker";
+import faker from "faker";
 
 // Create a react component
 const App = () => {
