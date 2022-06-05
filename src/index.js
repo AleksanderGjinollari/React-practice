@@ -2,16 +2,20 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import CommentDetail from "./CommentDetail";
+import faker from "faker";
+import ApprovalCard from "./ApprovalCard";
 
 // Create a react component
 const App = () => {
   return (
     <div className="ui container comments">
+      <ApprovalCard></ApprovalCard>
+
       <CommentDetail
         author="Sam"
         timeAgo="Today at 4:45PM"
         comment="Very beautiful"
-        avatar="https://cdn-icons-png.flaticon.com/512/147/147144.png"
+        avatar={faker.image.image()}
       />
       <CommentDetail
         author="Alex"
