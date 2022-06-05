@@ -4,6 +4,7 @@ import ReactDOM from "react-dom";
 import CommentDetail from "./CommentDetail";
 import faker from "faker";
 import ApprovalCard from "./ApprovalCard";
+import "./style/App.css";
 
 // Create a react component
 const App = () => {
